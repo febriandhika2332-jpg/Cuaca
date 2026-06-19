@@ -47,4 +47,7 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("com.squareup.okhttp3:okhttp:3.4.1")
     implementation("com.squareup.picasso:picasso:2.5.2")
+    implementation("com.loopj.android:android-async-http:1.4.9")
+    implementation("org.apache.httpcomponents:httpcore:4.4.13")
+    implementation("org.apache.httpcomponents:httpclient-android:4.3.5.1")
 }
