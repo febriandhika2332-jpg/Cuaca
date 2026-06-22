@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         _etKota = findViewById(R.id.etKota);
         _recyclerView1 = findViewById(R.id.recyclerView);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
 
         _buttonViewCityInfo.setText("Mencari...");
 
-        String url = "https://api.openweathermap.org/data/2.5/forecast?q={nama kota}&appid={app id anda}";
+        String url = "https://api.openweathermap.org/data/2.5/forecast?q=Pontianak&appid=8f28289c76abb88de9ef8f4da8321ad1";
         // Tampilkan url di Logcat untuk dicek di browser
         Log.d("url+tw", url);
 
